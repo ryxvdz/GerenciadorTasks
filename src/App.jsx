@@ -68,7 +68,7 @@ function App() {
   return (
     <div className="min-h-screen bg-slate-500 flex justify-center p-6">
       <div className="w-[500px] space-y-4">
-        <Title>Detalhes da Tarefa</Title>
+        <Title>Genrenciador de Tarefa</Title>
         <AddTasks onAddTaskSubmit={onAddTaskSubmit} />
         <Tasks
           tasks={tasks}
